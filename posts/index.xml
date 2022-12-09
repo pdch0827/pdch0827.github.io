@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - 我的全新 Hugo 网站</title>
+        <link>https://pdch0827.github.io/posts/</link>
+        <description>All Posts | 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1650827518@qq.com (陈伟东)</managingEditor>
+            <webMaster>1650827518@qq.com (陈伟东)</webMaster><lastBuildDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</lastBuildDate><atom:link href="https://pdch0827.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux Git</title>
+    <link>https://pdch0827.github.io/first_post/</link>
+    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
+    <author>陈伟东</author>
+    <guid>https://pdch0827.github.io/first_post/</guid>
+    <description><![CDATA[Linux系统git的安装及配置 命令：sudo yum install git git创建版本库/仓库 命令：git commit -m &lsquo;备注&rsquo; 修改完后可用同样的]]></description>
+</item>
+<item>
+    <title>Linux Github上传</title>
+    <link>https://pdch0827.github.io/fourth_post/</link>
+    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
+    <author>陈伟东</author>
+    <guid>https://pdch0827.github.io/fourth_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Linux socket编程</title>
+    <link>https://pdch0827.github.io/second_post/</link>
+    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
+    <author>陈伟东</author>
+    <guid>https://pdch0827.github.io/second_post/</guid>
+    <description><![CDATA[Linux Socket编程 实现服务端和客户端间的信息传递 首先新建服务端和客户端 c++格式 使用g++进行编译 服务端等待连接 客户端成功接入对应的IP地址]]></description>
+</item>
+<item>
+    <title>Linux 配置及Markdown编写网站(Hugo)</title>
+    <link>https://pdch0827.github.io/third_post/</link>
+    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
+    <author>陈伟东</author>
+    <guid>https://pdch0827.github.io/third_post/</guid>
+    <description><![CDATA[安装及配置Hugo 命令sudo apt install hugo 编写网站 套用某个模板 导入配置文件 在.md文件上使用Markdown语法编写网站内容 网站首页]]></description>
+</item>
+</channel>
+</rss>
