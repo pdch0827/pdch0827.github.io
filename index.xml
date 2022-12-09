@@ -7,20 +7,20 @@
             <webMaster>1650827518@qq.com (陈伟东)</webMaster><lastBuildDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</lastBuildDate>
             <atom:link href="https://pdch0827.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Linux Git</title>
-    <link>https://pdch0827.github.io/first_post/</link>
-    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
-    <author>陈伟东</author>
-    <guid>https://pdch0827.github.io/first_post/</guid>
-    <description><![CDATA[Linux系统git的安装及配置 命令：sudo yum install git git创建版本库/仓库 命令：git commit -m &lsquo;备注&rsquo; 修改完后可用同样的]]></description>
-</item>
-<item>
     <title>Linux Github上传</title>
     <link>https://pdch0827.github.io/fourth_post/</link>
     <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
     <author>陈伟东</author>
     <guid>https://pdch0827.github.io/fourth_post/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[项目代码完成github上传 github创建库 得到库连接地址 git配置操作 上传成功的文件 网页最终效果，公网正常访问]]></description>
+</item>
+<item>
+    <title>Linux Git及学习笔记</title>
+    <link>https://pdch0827.github.io/first_post/</link>
+    <pubDate>Fri, 09 Dec 2022 12:18:39 &#43;0800</pubDate>
+    <author>陈伟东</author>
+    <guid>https://pdch0827.github.io/first_post/</guid>
+    <description><![CDATA[Linux系统git的安装及配置 命令：sudo yum install git git创建版本库/仓库 命令：git commit -m &lsquo;备注&rsquo; 修改完后可用同样的]]></description>
 </item>
 <item>
     <title>Linux socket编程</title>

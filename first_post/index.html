@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Linux Git - 我的全新 Hugo 网站</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="Linux Git" />
+        <title>Linux Git及学习笔记 - 我的全新 Hugo 网站</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="Linux Git及学习笔记" />
 <meta property="og:description" content="Linux系统git的安装及配置 命令：sudo yum install git git创建版本库/仓库 命令：git commit -m &lsquo;备注&rsquo; 修改完后可用同样的" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://pdch0827.github.io/first_post/" />
@@ -14,23 +14,23 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://pdch0827.github.io/logo.png"/>
 
-<meta name="twitter:title" content="Linux Git"/>
+<meta name="twitter:title" content="Linux Git及学习笔记"/>
 <meta name="twitter:description" content="Linux系统git的安装及配置 命令：sudo yum install git git创建版本库/仓库 命令：git commit -m &lsquo;备注&rsquo; 修改完后可用同样的"/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pdch0827.github.io/first_post/" /><link rel="prev" href="https://pdch0827.github.io/fourth_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pdch0827.github.io/first_post/" /><link rel="prev" href="https://pdch0827.github.io/second_post/" /><link rel="next" href="https://pdch0827.github.io/fourth_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Linux Git",
+        "headline": "Linux Git及学习笔记",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/pdch0827.github.io\/first_post\/"
-        },"genre": "posts","wordcount":  103 ,
+        },"genre": "posts","wordcount":  151 ,
         "url": "https:\/\/pdch0827.github.io\/first_post\/","datePublished": "2022-12-09T12:18:39+08:00","dateModified": "2022-12-09T12:18:39+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -102,9 +102,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux Git</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux Git及学习笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>陈伟东</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-09">2022-12-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;103 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-09">2022-12-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;151 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -116,6 +116,16 @@
     <li>
       <ul>
         <li><a href="#linux系统git的安装及配置">Linux系统git的安装及配置</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#学习笔记">学习笔记</a>
+      <ul>
+        <li><a href="#点我进入git学习地址httpswwwbilibilicomvideobv19j411j7szfromsearchseid1570767978370783511spm_id_from33333700vd_sourcef3016e32f427da115e119cd70c20b6ec"><a href="https://www.bilibili.com/video/BV19J411j7SZ/?from=search&amp;seid=1570767978370783511&amp;spm_id_from=333.337.0.0&amp;vd_source=f3016e32f427da115e119cd70c20b6ec">点我进入git学习地址</a></a></li>
+        <li><a href="#点我进入hugo学习地址httpswwwbilibilicomvideobv1x64y117pxspm_id_from333337header_rightfav_listclickvd_sourcef3016e32f427da115e119cd70c20b6ec"><a href="https://www.bilibili.com/video/BV1x64y117PX/?spm_id_from=333.337.header_right.fav_list.click&amp;vd_source=f3016e32f427da115e119cd70c20b6ec">点我进入Hugo学习地址</a></a></li>
+        <li><a href="#点我进入linux学习地址作者向训文httpsnoteyoudaocomynoteshareindexhtmlid7e394ebd269d0caa871fc398854fbe81typenote_time1670586649015"><a href="https://note.youdao.com/ynoteshare/index.html?id=7e394ebd269d0caa871fc398854fbe81&amp;type=note&amp;_time=1670586649015">点我进入Linux学习地址（作者：向训文）</a></a></li>
       </ul>
     </li>
   </ul>
@@ -133,6 +143,10 @@
 <image src="/git_5.jpeg">
 <h1 id="git-reflog查看操作日志">git reflog查看操作日志</h1>
 <image src="/git_6.jpeg">
+<h2 id="学习笔记">学习笔记</h2>
+<h3 id="点我进入git学习地址httpswwwbilibilicomvideobv19j411j7szfromsearchseid1570767978370783511spm_id_from33333700vd_sourcef3016e32f427da115e119cd70c20b6ec"><a href="https://www.bilibili.com/video/BV19J411j7SZ/?from=search&amp;seid=1570767978370783511&amp;spm_id_from=333.337.0.0&amp;vd_source=f3016e32f427da115e119cd70c20b6ec" target="_blank" rel="noopener noreffer ">点我进入git学习地址</a></h3>
+<h3 id="点我进入hugo学习地址httpswwwbilibilicomvideobv1x64y117pxspm_id_from333337header_rightfav_listclickvd_sourcef3016e32f427da115e119cd70c20b6ec"><a href="https://www.bilibili.com/video/BV1x64y117PX/?spm_id_from=333.337.header_right.fav_list.click&amp;vd_source=f3016e32f427da115e119cd70c20b6ec" target="_blank" rel="noopener noreffer ">点我进入Hugo学习地址</a></h3>
+<h3 id="点我进入linux学习地址作者向训文httpsnoteyoudaocomynoteshareindexhtmlid7e394ebd269d0caa871fc398854fbe81typenote_time1670586649015"><a href="https://note.youdao.com/ynoteshare/index.html?id=7e394ebd269d0caa871fc398854fbe81&amp;type=note&amp;_time=1670586649015" target="_blank" rel="noopener noreffer ">点我进入Linux学习地址（作者：向训文）</a></h3>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -144,7 +158,7 @@
                             <a class="link-to-markdown" href="/first_post/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://pdch0827.github.io/first_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git及学习笔记" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://pdch0827.github.io/first_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git及学习笔记"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git及学习笔记"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://pdch0827.github.io/first_post/" data-title="Linux Git及学习笔记"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -156,7 +170,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/fourth_post/" class="prev" rel="prev" title="Linux Github上传"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux Github上传</a></div>
+    <div class="post-nav"><a href="/second_post/" class="prev" rel="prev" title="Linux socket编程"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux socket编程</a>
+            <a href="/fourth_post/" class="next" rel="next" title="Linux Github上传">Linux Github上传<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">
